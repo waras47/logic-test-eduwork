@@ -24,13 +24,21 @@
 //   return newString;
 //  }
 //  console.log(reverseString('abcde'));
-
 // nomer 3
-// function getCountOfDigits(str) {
-//   return str.replace(/[^0-9]/g, '');
-// }
-
-// console.log(getCountOfDigits('9.86-A5.321')); 
+function test(string) {
+let firstItem = string.replace(/-A/g ,'').split('').join('').split('').join('');
+string =string.replace(/-A/g , '').split('').join('').split('');
+let hasil = '';
+hasil += firstItem + '\n'
+for(let i = 0 ; i < string.length; i++){
+  hasil += string[i]';
+  for(let j = 0 ;  string.length - 1; j--){
+    hasil +=0
+  }
+  hasil += '\n'
+}
+return hasil;
+} 
 
 //nomer 4
 // let a = 3;
